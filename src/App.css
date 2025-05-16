@@ -1,0 +1,8 @@
+#main-container {
+  display: flex;
+  flex-direction: column;
+  mad-width: 800px;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 auto;
+}

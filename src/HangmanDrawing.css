@@ -1,0 +1,91 @@
+#container {
+  position: relative;
+}
+
+#one {
+  height: 10px;
+  width: 250px;
+  background: black;
+}
+
+#two {
+  height: 500px;
+  width: 10px;
+  background: black;
+}
+
+#three {
+  height: 10px;
+  width: 200px;
+  background: black;
+}
+
+#four {
+  width: 10px;
+  height: 60px;
+  background: black;
+  position: absolute;
+  right: 50px;
+}
+
+#head {
+  border: 10px solid;
+  border-radius: 50%;
+  position: absolute;
+  right: 22.5px;
+  top: 50px;
+  padding: 1.4rem;
+}
+
+#body {
+  width: 10px;
+  height: 100px;
+  background: black;
+  position: absolute;
+  top: 110px;
+  right: 50px;
+}
+
+#left-arm {
+  width: 10px;
+  height: 60px;
+  background: black;
+  position: absolute;
+  top: 120px;
+  right: 50px;
+  rotate: 25deg;
+  transform-origin: top;
+}
+
+#right-arm {
+  width: 10px;
+  height: 60px;
+  background: black;
+  position: absolute;
+  top: 120px;
+  right: 50px;
+  rotate: -25deg;
+  transform-origin: top;
+}
+
+#left-leg {
+  width: 10px;
+  height: 60px;
+  background: black;
+  position: absolute;
+  top: 200px;
+  right: 50px;
+  rotate: 25deg;
+  transform-origin: top;
+}
+
+#right-leg {
+  width: 10px;
+  height: 60px;
+  background: black;
+  position: absolute;
+  top: 200px;
+  right: 50px;
+  rotate: -25deg;
+  transform-origin: top;
+}
