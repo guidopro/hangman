@@ -10,7 +10,7 @@ function App() {
     return words[Math.floor(Math.random() * words.length)];
   });
 
-  console.log(wordToGuess);
+  console.log(setWordToGuess);
 
   const [guessedLetters, setGuessedLetters] = useState([] as string[]);
 
@@ -53,7 +53,7 @@ function App() {
       <div id="main-container">
         <div>
           {isWinner && "Winner! - Refresh to play again"}
-          {isLoser && "Loser... Refresh to try again"}
+          {isLoser && "Unlucky... Refresh to try again"}
         </div>
         <HangmanDrawing numberOfGuesses={incorrectLetters.length} />
         <HangmanWord
